@@ -1,0 +1,9 @@
+{
+    "/api": {
+      "target": "http://ioas.iitm.ac.in/IOASNewModulesAPI",
+      "secure": false,        // Set to true if the API uses HTTPS
+      "changeOrigin": true,   // Ensure the host header is updated to the target URL
+      "logLevel": "debug"     // Optional: to log proxy activity in the console
+    }
+  }
+  
